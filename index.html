@@ -258,7 +258,7 @@ svg.selectAll(".link")
 
          nodeEnter.append("image")
          .attr("class","popover")
-      .attr("xlink:href", function(d) { return d.icon; })
+      .attr("xlink:href", function(d) { return "images/" + d.icon; })
       .attr("x", function(d) { 
       return d.children || d._children ? 
       0: -15 })
