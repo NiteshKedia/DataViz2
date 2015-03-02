@@ -1,1 +1,78 @@
-
+round,winner,results,year,gender,player1,player2,country1,country2,firstServe1,firstServe2,ace1,ace2,double1,double2,firstPointWon1,firstPointWon2,secPointWon1,secPointWon2,fastServe1,fastServe2,avgFirstServe1,avgFirstServe2,avgSecServe1,avgSecServe2,break1,break2,return1,return2,total1,total2,winner1,winner2,error1,error2,net1,net2
+Final,Rafael Nadal,7-5 3-6 7-6(3) 3-6 6-2,2009,m,Rafael Nadal,Roger Federer,ESP,SUI,64%,52%,4,11,4,6,66%,73%,48%,45%,196,204,179,183,143,156,44%,32%,40%,41%,173,174,50,71,41,64,58%,72%
+semi,Rafael Nadal,6-7(4) 6-4 7-6(2) 6-7(1) 6-4,2009,m,Rafael Nadal,Fernando Verdasco,ESP,ESP,74%,69%,12,20,3,4,72%,71%,62%,55%,200,220,182,188,143,158,20%,50%,34%,31%,193,192,52,95,25,76,70%,65%
+semi,Roger Federer,6-2 7-5 7-5,2009,m,Roger Federer,Andy Roddick,SUI,USA,66%,65%,16,8,0,2,83%,70%,58%,52%,208,224,188,206,156,172,31%,0%,36%,26%,105,85,51,38,15,18,63%,50%
+quarter,Rafael Nadal,6-2 7-5 7-5,2009,m,Rafael Nadal,Gilles Simon,ESP,FRA,67%,55%,5,4,2,4,73%,71%,58%,38%,203,203,183,182,140,135,58%,43%,44%,32%,105,83,29,42,24,41,87%,66%
+quarter,Fernando Verdasco,7-6(2) 3-6 6-3 6-2,2009,m,Fernando Verdasco,Jo-Wilfried Tsonga,ESP,FRA,78%,65%,7,9,3,3,69%,72%,59%,49%,216,216,174,185,154,150,100%,15%,36%,33%,129,114,36,46,29,40,70%,61%
+quarter,Roger Federer,6-3 6-0 6-0,2009,m,Roger Federer,Juan Martin Del Potro,SUI,ARG,70%,59%,12,5,0,2,86%,46%,75%,33%,204,209,188,192,159,151,64%,-,59%,17%,83,36,38,8,9,24,84%,45%
+quarter,Andy Roddick,6-7(3) 6-4 6-2 2-1 ret.,2009,m,Andy Roddick,Novak Djokovic,USA,SRB,71%,62%,16,8,5,5,87%,63%,44%,48%,224,203,203,185,171,164,42%,100%,43%,25%,114,88,43,43,14,39,54%,50%
+Final,Roger Federer,6-3 6-4 7-6(11),2010,m,Roger Federer,Andy Murray,SUI,GBR,66%,57%,11,10,2,4,72%,69%,61%,51%,209,214,191,196,153,151,33%,25%,37%,32%,116,100,46,29,42,36,72%,61%
+semi,Roger Federer,6-2 6-3 6-2,2010,m,Roger Federer,Jo-Wilfried Tsonga,SUI,FRA,64%,56%,4,6,0,5,84%,69%,68%,39%,208,207,190,189,152,146,50%,-,41%,22%,85,54,33,21,13,27,73%,52%
+semi,Andy Murray,3-6 6-4 6-4 6-2,2010,m,Andy Murray,Marin Cilic,GBR,CRO,63%,56%,5,6,1,6,76%,70%,57%,44%,207,205,183,189,148,148,31%,33%,39%,31%,125,106,40,35,29,54,69%,63%
+quarter,Roger Federer,2-6 6-3 6-0 7-5,2010,m,Roger Federer,Nikolay Davydenko,SUI,RUS,60%,62%,9,1,4,4,67%,59%,49%,39%,209,207,189,176,150,150,57%,26%,47%,39%,125,104,35,35,43,50,68%,58%
+quarter,Jo-Wilfried Tsonga,7-6(8) 6-7(5) 1-6 6-3 6-1,2010,m,Jo-Wilfried Tsonga,Novak Djokovic,FRA,SRB,64%,69%,19,2,2,9,68%,67%,48%,49%,215,199,193,186,150,155,67%,38%,36%,39%,158,155,54,41,55,55,59%,70%
+quarter,Marin Cilic,7-6(4) 6-3 3-6 2-6 6-3,2010,m,Marin Cilic,Andy Roddick,CRO,USA,50%,63%,20,15,6,1,75%,69%,46%,52%,207,220,187,193,145,169,38%,38%,37%,38%,147,149,63,47,53,51,73%,54%
+quarter,Andy Murray,6-3 7-6(2) 3-0 ret.,2010,m,Andy Murray,Rafael Nadal,GBR,ESP,59%,67%,13,1,1,1,77%,63%,45%,42%,216,199,193,175,152,143,40%,17%,44%,36%,94,75,38,23,25,26,79%,87%
+Final,Novak Djokovic,6-4 6-2 6-3,2011,m,Novak Djokovic,Andy Murray,SRB,GBR,67%,53%,6,6,0,4,70%,64%,60%,31%,208,216,192,194,0,0,39%,75%,51%,33%,106,78,26,21,33,47,64%,39%
+semi,Andy Murray,4-6 7-6(2) 6-1 7-6(2),2011,m,Andy Murray,David Ferrer,GBR,ESP,60%,67%,9,5,3,2,75%,60%,37%,49%,211,198,185,178,142,146,55%,28%,44%,40%,152,141,60,34,63,34,71%,70%
+semi,Novak Djokovic,7-6(3) 7-5 6-4,2011,m,Novak Djokovic,Roger Federer,SRB,SUI,69%,60%,6,5,5,0,73%,71%,41%,48%,207,203,191,189,149,157,36%,30%,38%,37%,119,111,29,35,35,44,62%,65%
+quarter,David Ferrer,6-4 6-2 6-3,2011,m,David Ferrer,Rafael Nadal,ESP,ESP,68%,66%,8,2,2,1,72%,55%,57%,37%,198,207,178,179,149,142,47%,33%,51%,33%,102,75,44,19,32,34,76%,74%
+quarter,Andy Murray,7-5 6-3 6-7(3) 6-3,2011,m,Andy Murray,Alexandr Dolgopolov,GBR,UKR,58%,58%,9,16,5,5,75%,71%,61%,35%,216,211,187,184,149,140,39%,80%,44%,31%,152,124,33,57,34,77,68%,59%
+quarter,Novak Djokovic,6-1 7-6(5) 6-1,2011,m,Novak Djokovic,Tomas Berdych,SRB,CZE,68%,53%,10,5,1,5,82%,71%,41%,36%,206,218,192,200,150,156,50%,50%,46%,31%,107,80,34,29,21,32,75%,47%
+quarter,Roger Federer,6-1 6-3 6-3,2011,m,Roger Federer,Stanislas Wawrinka,SUI,SUI,77%,58%,5,1,0,0,72%,57%,76%,56%,207,214,188,184,156,144,71%,0%,43%,27%,90,66,29,21,24,30,63%,48%
+Final,Novak Djokovic,5-7 6-4 6-2 6-7(5) 7-5,2012,m,Novak Djokovic,Rafael Nadal,SRB,ESP,59%,67%,9,10,2,4,68%,66%,63%,45%,202,204,190,183,150,136,35%,67%,41%,34%,193,176,57,44,69,71,74%,84%
+semi,Novak Djokovic,6-3 3-6 6-7(4) 6-1 7-5,2012,m,Novak Djokovic,Andy Murray,SRB,GBR,61%,63%,11,9,6,10,66%,64%,45%,30%,203,215,189,184,157,139,42%,29%,49%,42%,184,161,49,47,69,86,75%,70%
+semi,Rafael Nadal,6-7(5) 6-2 7-6(5) 6-4,2012,m,Rafael Nadal,Roger Federer,ESP,SUI,77%,64%,4,11,1,5,69%,66%,63%,55%,194,207,172,185,137,154,38%,30%,38%,33%,146,130,36,46,34,63,33%,61%
+quarter,Novak Djokovic,6-4 7-6(4) 6-1,2012,m,Novak Djokovic,David Ferrer,SRB,ESP,53%,65%,3,2,0,1,71%,61%,67%,50%,199,193,186,178,151,145,42%,50%,43%,31%,105,84,35,18,39,36,78%,50%
+quarter,Andy Murray,6-3 6-3 6-1,2012,m,Andy Murray,Kei Nishikori,GBR,JPN,44%,60%,4,1,3,2,78%,54%,58%,37%,211,192,176,175,141,136,39%,20%,53%,33%,104,71,36,30,27,39,84%,59%
+quarter,Roger Federer,6-4 6-3 6-2,2012,m,Roger Federer,Juan Martin Del Potro,SUI,ARG,57%,67%,5,5,1,3,89%,57%,58%,55%,200,207,180,192,151,151,63%,17%,44%,25%,96,68,38,20,22,27,75%,73%
+quarter,Rafael Nadal,6-7(5) 7-6(6) 6-4 6-3,2012,m,Rafael Nadal,Tomas Berdych,ESP,CZE,71%,62%,6,17,2,5,76%,74%,49%,45%,200,219,178,193,137,153,38%,15%,37%,32%,157,147,57,66,30,56,77%,53%
+Final,Novak Djokovic,6-7(2) 7-6(3) 6-3 6-2,2013,m,Novak Djokovic,Andy Murray,SRB,GBR,63%,60%,8,7,3,5,75%,81%,66%,46%,209,211,188,186,155,133,27%,0%,33%,28%,139,126,47,29,61,46,85%,60%
+semi,Andy Murray,6-4 6-7(5) 6-3 6-7(2) 6-2,2013,m,Andy Murray,Roger Federer,GBR,SUI,64%,61%,21,5,0,2,75%,73%,63%,42%,215,205,192,186,140,155,38%,33%,39%,29%,177,151,62,43,47,60,67%,66%
+semi,Novak Djokovic,6-2 6-2 6-1,2013,m,Novak Djokovic,David Ferrer,SRB,ESP,63%,60%,6,1,0,3,91%,56%,79%,30%,203,197,188,182,154,148,100%,-,55%,14%,85,41,30,11,16,32,81%,33%
+quarter,Andy Murray,6-4 6-1 6-2,2013,m,Andy Murray,Jeremy Chardy,GBR,FRA,68%,68%,7,6,1,3,80%,60%,29%,20%,207,215,187,199,141,164,73%,40%,53%,36%,89,63,32,25,20,30,85%,59%
+quarter,Roger Federer,7-6(4) 4-6 7-6(4) 3-6 6-3,2013,m,Roger Federer,Jo-Wilfried Tsonga,SUI,FRA,61%,67%,6,20,3,1,77%,75%,56%,47%,207,218,189,194,156,147,22%,56%,34%,31%,169,164,49,66,47,61,72%,66%
+quarter,Novak Djokovic,6-1 4-6 6-1 6-4,2013,m,Novak Djokovic,Tomas Berdych,SRB,CZE,67%,60%,10,8,2,5,78%,66%,63%,42%,203,211,184,193,152,158,43%,25%,44%,27%,118,86,47,31,25,43,85%,73%
+quarter,David Ferrer,4-6 4-6 7-5 7-6(4) 6-2,2013,m,David Ferrer,Nicolas Almagro,ESP,ESP,69%,47%,16,15,0,4,72%,73%,50%,47%,190,221,175,198,144,149,38%,58%,41%,35%,165,150,44,51,51,75,80%,73%
+Final,Roger Federer,7-6(3) 6-4 6-2,2004,m,Roger Federer,Marat Safin,SUI,RUS,53%,49%,8,3,2,5,75%,63%,60%,47%,201,209,178,187,140,140,28%,67%,45%,32%,113,93,40,19,28,41,68%,55%
+semi,Roger Federer,6-4 6-1 6-4,2004,m,Roger Federer,Juan Carlos Ferrero,SUI,ESP,72%,58%,11,6,1,0,83%,66%,43%,53%,195,195,179,177,144,144,67%,0%,39%,28%,88,66,34,21,22,19,76%,58%
+semi,Marat Safin,7-6(6) 7-6(6) 5-7 1-6 6-3,2004,m,Marat Safin,Andre Agassi,RUS,USA,55%,59%,33,10,0,2,77%,76%,56%,52%,211,198,195,176,148,148,29%,50%,34%,32%,170,171,79,44,48,33,54%,82%
+quarter,Juan Carlos Ferrero,6-1 7-6(6) 7-6(5),2004,m,Juan Carlos Ferrero,Hicham Arazi,ESP,MAR,54%,63%,19,18,6,2,74%,75%,56%,56%,211,219,191,197,161,161,36%,43%,32%,34%,148,154,60,50,52,55,69%,68%
+quarter,Roger Federer,7-5 6-4 5-7 6-3,2004,m,Roger Federer,David Nalbandian,SUI,ARG,60%,65%,20,5,3,2,83%,68%,43%,61%,200,185,181,167,139,139,42%,27%,34%,33%,125,119,50,26,55,30,79%,57%
+quarter,Andre Agassi,6-2 2-0 ret.,2004,m,Andre Agassi,Sebastien Grosjean,USA,FRA,67%,56%,4,4,0,1,75%,64%,60%,25%,191,201,163,185,138,138,38%,-,53%,30%,45,30,10,14,8,22,100%,57%
+quarter,Marat Safin,2-6 6-3 7-5 6-7(0) 6-4,2004,m,Marat Safin,Andy Roddick,RUS,USA,54%,63%,19,18,6,2,74%,75%,56%,56%,211,219,191,197,161,161,36%,43%,32%,34%,148,154,60,50,52,55,69%,68%
+Final,Marat Safin,1-6 6-3 6-4 6-4,2005,m,Marat Safin,Lleyton Hewitt,RUS,AUS,60%,49%,18,7,1,3,73%,70%,57%,52%,215,202,201,183,148,148,36%,38%,39%,34%,122,113,54,33,36,22,60%,59%
+semi,Lleyton Hewitt,3-6 7-6(3) 7-6(4) 6-1,2005,m,Lleyton Hewitt,Andy Roddick,AUS,USA,62%,56%,14,31,7,9,83%,81%,47%,42%,202,231,180,205,173,173,25%,25%,36%,30%,142,127,48,66,21,50,71%,56%
+semi,Marat Safin,5-7 6-4 5-7 7-6(6) 9-7,2005,m,Marat Safin,Roger Federer,RUS,SUI,59%,57%,16,22,1,8,74%,82%,52%,51%,220,213,204,191,160,160,31%,29%,31%,35%,194,201,65,72,60,59,74%,76%
+quarter,Lleyton Hewitt,6-3 6-2 1-6 3-6 10-8,2005,m,Lleyton Hewitt,David Nalbandian,AUS,ARG,50%,62%,16,4,6,4,73%,71%,51%,45%,213,193,181,168,144,144,38%,50%,39%,38%,158,153,49,36,49,59,68%,80%
+quarter,Andy Roddick,6-3 7-5 4-1 ret.,2005,m,Andy Roddick,Nikolay Davydenko,USA,RUS,66%,58%,17,5,2,3,79%,65%,52%,42%,230,207,207,189,154,154,56%,20%,45%,30%,88,65,29,25,23,32,50%,64%
+quarter,Roger Federer,6-3 6-4 6-4,2005,m,Roger Federer,Andre Agassi,SUI,USA,66%,56%,22,1,4,2,77%,75%,62%,51%,209,202,193,176,151,151,50%,0%,35%,28%,99,79,46,13,31,20,68%,68%
+quarter,Marat Safin,6-2 6-4 6-2,2005,m,Marat Safin,Dominik Hrbaty,RUS,SVK,49%,44%,14,2,2,0,88%,63%,57%,43%,222,213,204,188,149,149,75%,25%,49%,28%,85,56,33,12,21,29,59%,70%
+Final,Roger Federer,5-7 7-5 6-0 6-2,2006,m,Roger Federer,Marcos Baghdatis,SUI,CYP,53%,48%,11,6,6,2,71%,71%,51%,37%,209,217,185,197,146,146,67%,30%,46%,38%,142,116,50,34,48,48,78%,52%
+semi,Roger Federer,6-3 5-7 6-0 6-2,2006,m,Roger Federer,Nicolas Kiefer,SUI,GER,66%,51%,7,14,5,7,71%,71%,67%,38%,205,222,186,196,154,154,32%,25%,45%,30%,129,99,39,33,33,53,79%,70%
+semi,Marcos Baghdatis,3-6 5-7 6-3 6-4 6-4,2006,m,Marcos Baghdatis,David Nalbandian,CYP,ARG,56%,67%,15,5,2,1,70%,63%,50%,50%,218,193,196,170,148,148,62%,41%,41%,39%,152,143,52,48,41,56,63%,81%
+quarter,Roger Federer,6-4 3-6 7-6(7) 7-6(5),2006,m,Roger Federer,Nikolay Davydenko,SUI,RUS,62%,77%,6,1,0,2,74%,70%,53%,42%,210,209,189,173,151,151,40%,50%,36%,34%,144,139,46,30,52,48,60%,72%
+quarter,Nicolas Kiefer,6-3 0-6 6-4 6-7(1) 8-6,2006,m,Nicolas Kiefer,Sebastien Grosjean,GER,FRA,45%,51%,4,12,9,2,62%,64%,51%,53%,220,215,189,183,139,139,56%,69%,41%,44%,160,169,34,59,67,55,58%,59%
+quarter,David Nalbandian,7-5 6-0 6-0,2006,m,David Nalbandian,Fabrice Santoro,ARG,FRA,61%,61%,2,4,0,1,74%,59%,72%,20%,191,194,173,173,133,133,53%,33%,57%,27%,90,50,47,18,17,15,81%,40%
+quarter,Marcos Baghdatis,6-4 6-2 4-6 3-6 6-3,2006,m,Marcos Baghdatis,Ivan Ljubicic,CYP,CRO,53%,64%,8,14,4,3,80%,71%,60%,54%,213,220,196,193,154,154,27%,22%,35%,30%,146,139,47,61,26,57,67%,70%
+Final,Roger Federer,7-6(2) 6-4 6-4,2007,m,Roger Federer,Fernando Gonzalez,SUI,CHI,58%,61%,5,6,1,3,82%,69%,78%,46%,,,,,,,30%,100%,40%,20%,120,93,45,31,19,28,79%,64%
+semi,Fernando Gonzalez,6-1 6-3 6-1,2007,m,Fernando Gonzalez,Tommy Haas,CHI,GER,63%,60%,9,0,0,4,87%,63%,64%,26%,,,,,,,58%,-,51%,22%,82,45,42,20,3,21,72%,55%
+semi,Roger Federer,6-4 6-0 6-2,2007,m,Roger Federer,Andy Roddick,SUI,USA,51%,63%,10,4,2,2,81%,54%,68%,29%,,,,,,,100%,100%,55%,25%,83,45,45,11,12,18,91%,29%
+quarter,Tommy Haas,6-3 2-6 1-6 6-1 7-5,2007,m,Tommy Haas,Nikolay Davydenko,GER,RUS,59%,70%,9,5,8,2,69%,62%,48%,55%,,,,,,,38%,60%,40%,37%,134,132,40,43,45,33,58%,78%
+quarter,Fernando Gonzalez,6-2 6-4 6-3,2007,m,Fernando Gonzalez,Rafael Nadal,CHI,ESP,66%,71%,10,1,0,2,73%,70%,61%,35%,,,,,,,63%,0%,40%,31%,89,73,41,14,16,21,80%,65%
+quarter,Roger Federer,6-3 7-6(2) 7-5,2007,m,Roger Federer,Tommy Robredo,SUI,ESP,63%,61%,5,4,1,4,72%,63%,58%,37%,,,,,,,50%,50%,47%,33%,119,94,42,17,31,28,73%,57%
+quarter,Andy Roddick,6-2 6-2 6-2,2007,m,Andy Roddick,Mardy Fish,USA,USA,62%,44%,10,12,2,5,92%,65%,52%,31%,,,,,,,54%,100%,54%,23%,85,46,25,28,2,26,82%,53%
+Final,Novak Djokovic,4-6 6-4 6-3 7-6(2),2008,m,Novak Djokovic,Jo-Wilfried Tsonga,SRB,FRA,56%,71%,11,15,2,2,78%,71%,63%,48%,209,218,192,189,147,147,33%,40%,36%,29%,136,122,46,44,35,41,79%,52%
+semi,Novak Djokovic,7-5 6-3 7-6(5),2008,m,Novak Djokovic,Roger Federer,SRB,SUI,68%,61%,13,10,6,2,78%,72%,42%,43%,208,209,191,191,155,155,36%,22%,39%,34%,118,104,50,38,32,32,79%,71%
+semi,Jo-Wilfried Tsonga,6-2 6-3 6-2,2008,m,Jo-Wilfried Tsonga,Rafael Nadal,FRA,ESP,64%,69%,17,2,1,1,86%,56%,56%,50%,221,195,190,175,147,147,71%,0%,46%,25%,89,57,49,13,27,12,75%,47%
+quarter,Novak Djokovic,6-0 6-3 7-5,2008,m,Novak Djokovic,David Ferrer,SRB,ESP,62%,56%,7,4,3,4,76%,57%,51%,43%,210,190,189,179,149,149,43%,11%,49%,33%,107,77,34,23,32,33,83%,52%
+quarter,Roger Federer,7-5 7-6(5) 6-4,2008,m,Roger Federer,James Blake,SUI,USA,68%,58%,13,8,0,5,75%,70%,58%,43%,207,213,190,190,153,153,50%,100%,41%,30%,115,97,46,38,24,33,71%,60%
+quarter,Jo-Wilfried Tsonga,7-5 6-0 7-6(6),2008,m,Jo-Wilfried Tsonga,Mikhail Youzhny,FRA,RUS,63%,73%,8,0,1,3,89%,69%,56%,31%,216,201,192,172,149,149,57%,-,42%,23%,110,82,35,29,32,33,73%,65%
+quarter,Rafael Nadal,7-5 6-3 6-1,2008,m,Rafael Nadal,Jarkko Nieminen,ESP,FIN,60%,69%,5,2,5,2,78%,63%,49%,36%,201,208,183,176,126,126,67%,13%,45%,34%,102,81,36,25,23,28,78%,53%
+Final,Stanislas Wawrinka,6-3 6-2 3-6 6-3,2014,m,Stanislas Wawrinka,Rafael Nadal,SUI,ESP,55%,78%,19,1,2,3,87%,60%,51%,42%,217,200,192,162,134,134,33%,33%,44%,29%,116,88,53,19,49,32,92%,63%
+semi,Rafael Nadal,7-6(4) 6-3 6-3,2014,m,Rafael Nadal,Roger Federer,ESP,SUI,65%,66%,3,8,1,1,73%,65%,73%,50%,198,203,175,181,152,152,29%,50%,40%,27%,105,86,28,34,25,50,30%,55%
+semi,Stanislas Wawrinka,6-3 6-7(1) 7-6(3) 7-6(4),2014,m,Stanislas Wawrinka,Tomas Berdych,SUI,CZE,61%,62%,18,21,4,7,82%,82%,56%,57%,217,216,189,195,152,152,25%,0%,28%,28%,143,142,57,60,49,49,78%,74%
+quarter,Rafael Nadal,3-6 7-6(3) 7-6(7) 6-2,2014,m,Rafael Nadal,Grigor Dimitrov,ESP,BUL,73%,58%,3,16,7,5,73%,71%,67%,49%,201,219,168,189,152,152,36%,50%,38%,29%,147,132,42,54,47,61,89%,68%
+quarter,Roger Federer,6-3 6-4 6-7(6) 6-3,2014,m,Roger Federer,Andy Murray,SUI,GBR,64%,61%,10,9,0,1,78%,67%,64%,49%,204,208,184,183,131,131,24%,50%,40%,27%,147,121,54,41,42,46,74%,63%
+quarter,Stanislas Wawrinka,2-6 6-4 6-2 3-6 9-7,2014,m,Stanislas Wawrinka,Novak Djokovic,SUI,SRB,58%,73%,17,7,5,1,72%,71%,50%,59%,219,203,194,187,146,146,50%,57%,32%,37%,153,161,51,45,60,60,67%,74%
+quarter,Tomas Berdych,6-1 6-4 2-6 6-4,2014,m,Tomas Berdych,David Ferrer,CZE,ESP,52%,61%,10,2,4,1,78%,64%,44%,50%,217,185,194,167,141,141,38%,25%,42%,39%,128,119,43,30,62,46,64%,92%
