@@ -1,0 +1,72 @@
+[
+  {
+    "round":"Final",
+    "winner":"Roger Federer",
+    "results":"7-6(3) 6-4 6-2",
+    "year":2004,
+    "player1":"Roger Federer",
+    "player2":"Marat Safin",
+    "country1":"SUI",
+    "country2":"RUS"
+  },
+  {
+    "round":"semi",
+    "winner":"Roger Federer",
+    "results":"6-4 6-1 6-4",
+    "year":2004,
+    "player1":"Roger Federer",
+    "player2":"Juan Carlos Ferrero",
+    "country1":"SUI",
+    "country2":"ESP"
+  },
+  {
+    "round":"semi",
+    "winner":"Marat Safin",
+    "results":"7-6(6) 7-6(6) 5-7 1-6 6-3",
+    "year":2004,
+    "player1":"Marat Safin",
+    "player2":"Andre Agassi",
+    "country1":"RUS",
+    "country2":"USA"
+  },
+  {
+    "round":"quarter",
+    "winner":"Juan Carlos Ferrero",
+    "results":"6-1 7-6(6) 7-6(5)",
+    "year":2004,
+    "player1":"Juan Carlos Ferrero",
+    "player2":"Hicham Arazi",
+    "country1":"ESP",
+    "country2":"MAR"
+  },
+  {
+    "round":"quarter",
+    "winner":"Roger Federer",
+    "results":"7-5 6-4 5-7 6-3",
+    "year":2004,
+    "player1":"Roger Federer",
+    "player2":"David Nalbandian",
+    "country1":"SUI",
+    "country2":"ARG"
+  },
+  {
+    "round":"quarter",
+    "winner":"Andre Agassi",
+    "results":"6-2 2-0 ret.",
+    "year":2004,
+    "player1":"Andre Agassi",
+    "player2":"Sebastien Grosjean",
+    "country1":"USA",
+    "country2":"FRA"
+  },
+  {
+    "round":"quarter",
+    "winner":"Marat Safin",
+    "results":"2-6 6-3 7-5 6-7(0) 6-4",
+    "year":2004,
+    "player1":"Marat Safin",
+    "player2":"Andy Roddick",
+    "country1":"RUS",
+    "country2":"USA"
+  }
+]

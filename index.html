@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?1.27.1"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.2.min.js"></script> 
+    <script type="text/javascript" src="jquery.tipsy.js"></script>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="index.css">
+    <title>Collapsible Tree Example</title>
+
+
+
+  </head>
+
+  <body>
+
+<div id="toolbarbottom" class="toolbar">
+    <ul>
+        <li class="round-button"><div style = "background:#00FFCC" class="round-button-circle"><a href="http://example.com" class="round-button">2004</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2005</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2006</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2007</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2008</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2009</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2010</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2011</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2012</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2013</a></div></li>
+        <li class="round-button"><div class="round-button-circle"><a href="http://example.com" class="round-button">2014</a></div></li>
+
+    </ul>
+</div>
+
+
+
+  
+<script>
+
+/*var treeData = [
+  {
+   "name":"Top",
+   "parent":"null",
+   "value":10,
+   "type":"black",
+   "icon": "earth.png",
+   "level":"red",
+   "children":[
+      {
+         "name":"F2",
+         "parent":"Top",
+         "value":10,
+         "type":"black",
+         "icon": "earth.png",
+         "level":"red",
+         "children":[
+            {
+               "name":"S22",
+               "parent":"F2",
+               "value":10,
+               "type":"black",
+               "icon": "earth.png",
+               "level":"red",
+               "children":[
+                  {
+                     "name":"Q42",
+                     "parent":"S22",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  },
+                  {
+                     "name":"Q41",
+                     "parent":"S22",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  }
+               ]
+            },
+            {
+               "name":"S21",
+               "parent":"F2",
+               "value":10,
+               "type":"black",
+               "icon": "earth.png",
+               "level":"red",
+               "children":[
+                  {
+                     "name":"Q32",
+                     "parent":"S21",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  },
+                  {
+                     "name":"Q31",
+                     "parent":"S21",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"F1",
+         "parent":"Top",
+         "value":10,
+         "type":"black",
+         "icon": "earth.png",
+         "level":"red",
+         "children":[
+            {
+               "name":"S12",
+               "parent":"F1",
+               "value":10,
+               "type":"black",
+               "icon": "earth.png",
+               "level":"red",
+               "children":[
+                  {
+                     "name":"Q22",
+                     "parent":"S12",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  },
+                  {
+                     "name":"Q21",
+                     "parent":"S12",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  }
+               ]
+            },
+            {
+               "name":"S11",
+               "parent":"F1",
+               "value":10,
+               "type":"black",
+               "icon": "earth.png",
+               "level":"red",
+               "children":[
+                  {
+                     "name":"Q12",
+                     "parent":"S11",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  },
+                  {
+                     "name":"Q11",
+                     "parent":"S11",
+                     "value":10,
+                     "type":"black",
+                     "icon": "earth.png",
+                     "level":"red"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
+];*/
+
+// ************** Generate the tree diagram  *****************
+var div1 = d3.select("body").append("div").attr("id","playerstat")
+    .attr("class", "tooltip")
+    .style("opacity", 1e-6);
+
+var margin = {top: 100, right: 10, bottom: 140, left: 10},
+    width = 1000 - margin.left - margin.right,
+    height = 530 - margin.top - margin.bottom;
+
+var orientations = {
+  "bottom-to-top": {
+    size: [width, height],
+    x: function(d) { return d.x; },
+    y: function(d) { return height - d.y; }
+  }
+};
+
+var i = 0;
+
+var tree = d3.layout.tree()
+  .size([height-300, width-100]);
+
+var diagonal = d3.svg.diagonal()
+  .projection(function(d) { return [d.y, d.x]; });
+/*
+var svg = d3.select("body").append("svg")
+  .attr("width", width + margin.right + margin.left)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", 
+        "translate(" + margin.left + "," + margin.top + ")");*/
+var svg = d3.select("body").selectAll("svg")
+    .data(d3.entries(orientations))
+  .enter().append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.json("graph1.json", function(root) {
+  svg.each(function(orientation) {
+    var svg = d3.select(this),
+        o = orientation.value;
+var tree = d3.layout.tree().size(o.size);
+
+//root = treeData[0];
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root);
+    links = tree.links(nodes);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 100; });
+
+  // Declare the nodes…
+  var node = svg.selectAll("g.node")
+    .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter the nodes.
+  var node = svg.selectAll(".node").data(nodes);
+
+ 
+  var nodeEnter = node.enter().append("g")
+    .attr("class", "node")
+    .attr("transform", function(d) { 
+      return "translate(" + o.x(d) + "," + o.y(d) + ")"; });
+
+ 
+
+  nodeEnter.append("text")
+    .attr("x", 8)
+    .attr("y", 14)
+    .attr("dy", ".35em")
+    .text(function(d) { return d.name; })
+    .style("fill-opacity", 1);
+
+svg.selectAll(".link")
+        .data(links)
+      .enter().append("path")
+        .attr("class", "link")
+        .attr("position","relative")
+        .attr("d", d3.svg.diagonal().projection(function(d) { return [o.x(d), o.y(d)]; }));
+
+         nodeEnter.append("image")
+         .attr("class","popover")
+      .attr("xlink:href", function(d) { return d.icon; })
+      .attr("x", function(d) { 
+      return d.children || d._children ? 
+      0: -15 })
+      .attr("y", "-48px")
+      .attr("width", "48px")
+      .attr("height", "48px")
+      .attr("position","absolute")
+      .on("mouseover", mouseover)
+    .on("mousemove", mousemove)
+    .on("mouseout", mouseout);
+
+
+});});
+
+function mouseover() {
+  div1.transition()
+      .duration(100)
+      .style("opacity", 1);
+}
+
+function mousemove() {
+  console.log(d3.event.pageY);
+ // div1.html("<span'></span>")
+      //.style("left", (d3.event.pageX ) + "px")
+      //.style("top", (d3.event.pageY ) + "px");
+
+      div1.html("<span'></span>")
+      .style("left", function(){
+        return d3.event.pageX > 800 ? d3.event.pageX - 300 + "px": d3.event.pageX + "px"
+      })
+      .style("top", function(){
+        return d3.event.pageY > 410 ? d3.event.pageX - 200 + "px": d3.event.pageY + "px"
+      });
+}
+
+function mouseout() {
+  div1.transition()
+      .duration(100)
+      .style("opacity", 1e-6);
+}
+
+</script>
+  
+  </body>
+</html>
