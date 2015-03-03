@@ -29,47 +29,47 @@
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2006"> 
-                    <a href="" onclick="updatedata(this.id)" id="2" class="round-button">2006</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="2" class="round-button">2006</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2007">
-                    <a href="" onclick="updatedata(this.id)" id="3" class="round-button">2007</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="3" class="round-button">2007</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2008">
-                    <a href="" onclick="updatedata(this.id)" id="4" class="round-button">2008</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="4" class="round-button">2008</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2009">
-                    <a href="" onclick="updatedata(this.id)" id="5" class="round-button">2009</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="5" class="round-button">2009</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2010">
-                    <a href="" onclick="updatedata(this.id)" id="6" class="round-button">2010</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="6" class="round-button">2010</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2011">
-                    <a href="" onclick="updatedata(this.id)" id="7" class="round-button">2011</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="7" class="round-button">2011</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2012">
-                    <a href="" onclick="updatedata(this.id)" id="8" class="round-button">2012</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="8" class="round-button">2012</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2013">
-                    <a href="" onclick="updatedata(this.id)" id="9" class="round-button">2013</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="9" class="round-button">2013</a>
                 </div>
             </li>
             <li class="round-button">
                 <div class="round-button-circle" id="2014">
-                    <a href="" onclick="updatedata(this.id)" id="10" class="round-button">2014</a>
+                    <a href="#Exit" onclick="updatedata(this.id)" id="10" class="round-button">2014</a>
                 </div>
             </li>
 
@@ -99,7 +99,7 @@
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.json("graph1.json", function(def) {
+        d3.json("results.json", function(def) {
             root = def[selectedyear].data;
             //alert(selectedyear);
             svg.each(function(orientation) {
@@ -164,7 +164,7 @@
                     .on("mouseout", mouseout);
             });
         });
-return;
+
         }
 
 
@@ -220,7 +220,7 @@ return;
             .append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-        d3.json("graph1.json", function(def) {
+        d3.json("results.json", function(def) {
             root = def[selectedyear].data;
             //alert(selectedyear);
             svg.each(function(orientation) {
