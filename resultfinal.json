@@ -3,7 +3,7 @@
       "year":2004,
       "data":{  
         "name":"Roger Federer",
-        "round":"Winner",
+        "round":"Final",
         "country":"SUI",
         "Aces":8,
         "icon":"Roger Federer.png",
@@ -171,7 +171,7 @@
       "year":2005,
       "data":{  
         "name":"Marat Safin",
-        "round":"Winner",
+        "round":"Final",
         "country":"RUS",
         "Aces":18,
         "icon":"Marat Safin.png",
@@ -339,7 +339,7 @@
       "year":2006,
       "data":{  
         "name":"Roger Federer",
-        "round":"Winner",
+        "round":"Final",
         "country":"SUI",
         "Aces":11,
         "icon":"Roger Federer.png",
@@ -507,7 +507,7 @@
       "year":2007,
       "data":{  
         "name":"Roger Federer",
-        "round":"Winner",
+        "round":"Final",
         "country":"SUI",
         "Aces":5,
         "icon":"Roger Federer.png",
@@ -675,7 +675,7 @@
       "year":2008,
       "data":{  
         "name":"Novak Djokovic",
-        "round":"Winner",
+        "round":"Final",
         "country":"SRB",
         "Aces":11,
         "icon":"Novak Djokovic.png",
@@ -843,7 +843,7 @@
       "year":2009,
       "data":{  
         "name":"Rafael Nadal",
-        "round":"Winner",
+        "round":"Final",
         "country":"ESP",
         "Aces":4,
         "icon":"Rafael Nadal.png",
@@ -1011,7 +1011,7 @@
       "year":2010,
       "data":{  
         "name":"Roger Federer",
-        "round":"Winner",
+        "round":"Final",
         "country":"SUI",
         "Aces":11,
         "icon":"Roger Federer.png",
@@ -1179,7 +1179,7 @@
       "year":2011,
       "data":{  
         "name":"Novak Djokovic",
-        "round":"Winner",
+        "round":"Final",
         "country":"SRB",
         "Aces":6,
         "icon":"Novak Djokovic.png",
@@ -1347,7 +1347,7 @@
       "year":2012,
       "data":{  
         "name":"Novak Djokovic",
-        "round":"Winner",
+        "round":"Final",
         "country":"SRB",
         "Aces":9,
         "icon":"Novak Djokovic.png",
@@ -1515,7 +1515,7 @@
       "year":2013,
       "data":{  
         "name":"Novak Djokovic",
-        "round":"Winner",
+        "round":"Final",
         "country":"SRB",
         "Aces":8,
         "icon":"Novak Djokovic.png",
@@ -1683,7 +1683,7 @@
       "year":2014,
       "data":{  
         "name":"Stanislas Wawrinka",
-        "round":"Winner",
+        "round":"Final",
         "country":"SUI",
         "Aces":19,
         "icon":"Stanislas Wawrinka.png",

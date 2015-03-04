@@ -13,7 +13,7 @@
 
 </head>
 
-<body style="background-image: url('images/image2.jpeg');background-size:cover;">
+<body style="background-image: url('images/image2.jpg');background-size:cover;">
 
     <div id="toolbarbottom" class="toolbar">
         <ul>
@@ -137,10 +137,10 @@
                     });
                 nodeEnter.append("text")
                     .attr("x",function(d) {
-                        return d.round=="Winner" ? -12 : 18
+                        return d.round=="Final" ? -12 : 18
                     })
                     .attr("y",function(d) {
-                        return d.round=="Winner" ? -77 : 15
+                        return d.round=="Final" ? -77 : 15
                     })
                     .attr("dy", ".35em")
                     .text(function(d) {
@@ -163,10 +163,10 @@
                         return "images/" + d.icon;
                     })
                     .attr("x", function(d) {
-                        return d.round=="Winner" ? -23 : d.children || d._children ? 8 : -15
+                        return d.round=="Final" ? -23 : d.children || d._children ? 8 : -15
                     })
                     .attr("y", function(d) {
-                        return d.round=="Winner" ? -68 : -38
+                        return d.round=="Final" ? -68 : -38
                     })
                     .attr("width", "48px")
                     .attr("height", "48px")
@@ -175,7 +175,7 @@
                     .on("mousemove", function(d){mousemove(d);})
                     .on("mouseout", mouseout);
 
-                    var winnerNode = node.select(function(d) { return d.round=="Winner" ? this : null; });
+                    var winnerNode = node.select(function(d) { return d.round=="Final" ? this : null; });
 
                     winnerNode.append("image")
                     .attr("xlink:href", "images/trophy.png")
@@ -185,7 +185,7 @@
                     .attr("position", "absolute")
                     .attr("y", 0);
 
-                    var winnerNode = node.select(function(d) { return d.round=="Winner" ? this : null; });
+                    var winnerNode = node.select(function(d) { return d.round=="Final" ? this : null; });
 
                     winnerNode.append("image")
                     .attr("xlink:href", "images/trophy.png")
@@ -287,10 +287,10 @@
                     });
                 nodeEnter.append("text")
                     .attr("x",function(d) {
-                        return d.round=="Winner" ? -12 : 18
+                        return d.round=="Final" ? -12 : 18
                     })
                     .attr("y",function(d) {
-                        return d.round=="Winner" ? -77 : 15
+                        return d.round=="Final" ? -77 : 15
                     })
                     .attr("dy", ".35em")
                     .text(function(d) {
@@ -312,10 +312,10 @@
                         return "images/" + d.icon;
                     })
                     .attr("x", function(d) {
-                        return d.round=="Winner" ? -23 : d.children || d._children ? 8 : -15
+                        return d.round=="Final" ? -23 : d.children || d._children ? 8 : -15
                     })
                     .attr("y", function(d) {
-                        return d.round=="Winner" ? -68 : -38
+                        return d.round=="Final" ? -68 : -38
                     })
                     .attr("width", "48px")
                     .attr("height", "48px")
@@ -324,7 +324,7 @@
                     .on("mousemove", function(d){mousemove(d);})
                     .on("mouseout", mouseout);
 
-                    var winnerNode = node.select(function(d) { return d.round=="Winner" ? this : null; });
+                    var winnerNode = node.select(function(d) { return d.round=="Final" ? this : null; });
 
                     winnerNode.append("image")
                     .attr("xlink:href", "images/trophy.png")
